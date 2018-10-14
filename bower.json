@@ -1,0 +1,25 @@
+{
+    "name": "kbase-ui-plugin-candidate-contributions",
+    "description": "2015-16 presidential candidate contributions",
+    "keywords": [
+        "kbase", "widget"
+    ],
+    "author": [
+        "eapearson@lbl.gov"
+    ],
+    "moduleType": "kbase-ui-plugin",
+    "main": "src/plugin/config.yml",
+    "ignore": [
+        ".gitignore"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/eapearson/kbase-ui-plugin-candidate-contributions"
+    },
+    "dependencies": {
+        "bluebird": "^3.5.0",
+        "bootstrap": "^3.3.0"
+    },
+    "devDependencies": {},
+    "license": "SEE LICENSE IN LICENSE"
+}

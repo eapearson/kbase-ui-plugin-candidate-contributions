@@ -1,0 +1,15 @@
+## Config for plugin
+---
+package:
+  author: Erik Pearson
+  name: candidate-contributions
+source:
+install:
+  widgets: 
+    -
+      module: panel
+      id: eap_candidate-contributions_panel
+      type: es6
+  routes:
+    -
+      path: ['candidates']
