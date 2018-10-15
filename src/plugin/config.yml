@@ -12,4 +12,6 @@ install:
       type: es6
   routes:
     -
-      path: ['candidates']
+      path: [candidates]
+      widget: eap_candidate-contributions_panel
+      authorization: false
